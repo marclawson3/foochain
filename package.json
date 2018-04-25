@@ -1,0 +1,19 @@
+{
+  "name": "foochain",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "A simple app demonstrating basic blockchain concepts.",
+  "author": {
+    "name": "Marc Lawson"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.14.0",
+    "morgan": "^1.9.0"
+  }
+}

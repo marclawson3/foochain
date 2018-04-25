@@ -1,0 +1,362 @@
+{
+	"variables": [],
+	"info": {
+		"name": "FooChain Samples",
+		"_postman_id": "d6f2e44c-c1ee-db89-f4c1-36543105fe10",
+		"description": "Sample calls and transactions to pass to FooChain app.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/chain",
+			"request": {
+				"url": "localhost:3000/chain",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Greta",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Francesco",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": "Current contents of the blockchain."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/chain/isValid",
+			"request": {
+				"url": "localhost:3000/chain/isValid",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Greta",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Francesco",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/transactions",
+			"request": {
+				"url": "localhost:3000/transactions",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Marc",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Sara",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "1000",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/transactions",
+			"request": {
+				"url": "localhost:3000/transactions",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Greta",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Francesco",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/transactions",
+			"request": {
+				"url": "localhost:3000/transactions",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Jason",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Marc",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50000",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/transactions",
+			"request": {
+				"url": "localhost:3000/transactions",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Sara",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Jason",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "4236",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/chain/mine",
+			"request": {
+				"url": "localhost:3000/chain/mine",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Greta",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Francesco",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/chain",
+			"request": {
+				"url": "localhost:3000/chain",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Greta",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Francesco",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/chain/isValid",
+			"request": {
+				"url": "localhost:3000/chain/isValid",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sender",
+							"value": "Greta",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "recipient",
+							"value": "Francesco",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "amount",
+							"value": "50",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
